@@ -30,8 +30,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/SSNNameMatch-Python3
-$ cd SSNNameMatch-Python3
+git clone https://github.com/MelissaData/SSNNameMatch-Python3
+cd SSNNameMatch-Python3
 ```
 
 ## Windows
@@ -71,15 +71,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ .\SSNNameMatchPython3.ps1
+	.\SSNNameMatchPython3.ps1
 	```
 
 - Command Line 
 
 	You can pass a ssn and license string into `-ssn` and `-license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ .\SSNNameMatchPython3.ps1 -ssn "111223333" 
-    $ .\SSNNameMatchPython3.ps1 -ssn "111223333" -license "<your_license_string>"
+    .\SSNNameMatchPython3.ps1 -ssn "111223333" 
+    .\SSNNameMatchPython3.ps1 -ssn "111223333" -license "<your_license_string>"
     ```
 	
 This is the expected output from a successful setup for interactive mode:
@@ -130,15 +130,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ ./SSNNameMatchPython3.sh
+	./SSNNameMatchPython3.sh
 	```
 
 - Command Line 
 
 	You can pass a ssn and license string into `--ssn` and `--license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ ./SSNNameMatchPython3.sh --ssn "111223333" 
-    $ ./SSNNameMatchPython3.sh --ssn "111223333" --license "<your_license_string>"
+    ./SSNNameMatchPython3.sh --ssn "111223333" 
+    ./SSNNameMatchPython3.sh --ssn "111223333" --license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive mode:
